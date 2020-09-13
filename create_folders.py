@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import os
 import openpyxl 
 
@@ -22,10 +16,3 @@ for i in range(1, m_row + 1):
 
 for folder in folders: 
     os.makedirs(folder)
-
-
-# In[ ]:
-
-
-
-
